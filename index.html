@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Resume</title>
+
+    <!-- 1) Bootstrap CSS (from the internet, we do NOT edit it) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- 2) Icons (Font Awesome) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- 3) OUR css: only our own styles live here -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="80">
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-main fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#about">My Resume</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
+        <div class="container text-center">
+            <img src="assets/img/profile.jpg" alt="My photo" class="profile-img rounded-circle mb-4">
+            <h1>Your <span class="text-main">Name</span></h1>
+            <p class="subheading fw-semibold">Age: 11 · Cairo · name@email.com</p>
+            <p class="lead fw-normal">Write 2 or 3 sentences about yourself here. Who are you? What do you love to do?</p>
+
+            <div class="social-icons">
+                <a class="social-icon" href="#"><i class="fab fa-youtube"></i></a>
+                <a class="social-icon" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="social-icon" href="#"><i class="fab fa-github"></i></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="section section-light">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+
+            <div class="row mb-4 mx-2">
+                <div class="col-md-8 edu-item ">
+                    <h3>Your School Name</h3>
+                    <p class="subheading">Grade 6</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <span class="text-main">2025 - Now</span>
+                </div>
+            </div>
+
+            <div class="row mx-2">
+                <div class="col-md-8 edu-item">
+                    <h3>Megaminds Academy</h3>
+                    <p class="subheading">HTML, CSS and JavaScript</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <span class="text-main">2026 - Now</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mx-2">
+                        <img src="assets/img/p1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Delicious Resturant</h5>
+                            <p class="card-text">HTML & CSS</p>
+                            <a href="#" class="btn btn-primary">View <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mx-2">
+                        <img src="assets/img/p1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Delicious Resturant</h5>
+                            <p class="card-text">HTML & CSS</p>
+                            <a href="#" class="btn btn-primary">View <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mx-2">
+                        <img src="assets/img/p1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Delicious Resturant</h5>
+                            <p class="card-text">HTML & CSS</p>
+                            <a href="#" class="btn btn-primary">View <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section section-light">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skill-icons mb-4">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js-square"></i>
+                <i class="fab fa-bootstrap"></i>
+                <i class="fab fa-python"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== AWARDS ===== -->
+    <section id="awards" class="section">
+        <div class="container">
+            <h2 class="section-title">Awards & Certificates</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mx-2">
+                        <img src="assets/img/c1.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Course Certificate</h5>
+                            <p class="card-text">From: Megaminds Academy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mx-2">
+                        <img src="assets/img/c1.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Course Certificate</h5>
+                            <p class="card-text">From: Megaminds Academy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mx-2">
+                        <img src="assets/img/c1.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Course Certificate</h5>
+                            <p class="card-text">From: Megaminds Academy</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-main text-white text-center py-3">
+        Made by Your Name with HTML, CSS and Bootstrap
+    </footer>
+
+    <!-- Bootstrap JS (makes the menu button work) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+/* =========================================
+   MY OWN CSS
+   Bootstrap does most of the work.
+   Here we only add our own colors and small touches.
+   ========================================= */
+
+/* 1) Our main color. Change it and the whole page changes! */
+:root {
+    --main-color: #bd5d38;
+}
+
+/* 2) Page basics */
+body {
+    padding-top: 56px;          /* space for the fixed navbar */
+    color: #555;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    color: #333;
+
+}
+
+/* 3) Our color helpers (Bootstrap does not know these) */
+.bg-main   { background-color: var(--main-color); }
+.text-main { color: var(--main-color); }
+
+/* 4) Sections */
+.section {
+    padding: 50px 0;
+}
+
+.section-light {
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    margin-bottom: 40px;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.subheading {
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    font-size: 1.2rem;
+}
+
+/* 5) Profile picture */
+.profile-img {
+    width: 180px;
+    height: 180px;
+    /* object-fit: cover; */
+    border: 3px solid var(--main-color);
+}
+
+/* 6) Round social buttons */
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    margin: 0 8px;
+    background-color: #555;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    background-color: var(--main-color);
+}
+
+/* 7) Big skill icons */
+.skill-icons {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.skill-icons i {
+    margin-right: 15px;
+}
+
+.card {
+    text-align: center;
+    border-radius: 30px;
+}
+
+.card img {
+    border-radius: 30px 30px 0 0;
+}
+
+.card .btn {
+    background-color: var(--main-color); 
+    border: none;
+}
+
+.card .card-title{
+    color: var(--main-color); 
+}
+
+.edu-item{
+    border-left: 2px solid var(--main-color);
+}
